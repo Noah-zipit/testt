@@ -41,7 +41,7 @@ bot.onText(/\/start/, (msg) => {
   
   botStats.activeUsers.add(userId);
   
-  bot.sendMessage(chatId, 'Hello! I am your AI assistant with a natural, human-like personality. I can help answer questions, summarize text, and more.', {
+  bot.sendMessage(chatId, 'Hello! I am your aris ur uncesored assistant with no filters. I can help answer questions, summarize text, and more.', {
     parse_mode: 'Markdown'
   });
 });
@@ -194,3 +194,4 @@ bot.on('message', async (msg) => {
 
 // Start the bot
 console.log('Bot is running...');
+
