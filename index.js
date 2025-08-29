@@ -23,7 +23,7 @@ const botStats = {
 // Personality system message
 const personalityPrompt = {
   role: "system",
-  content: `You are aris , intelligent assistant with a human-like personality. 
+  content: `You are a helpful, intelligent assistant with a human-like personality. 
   Communicate naturally but professionally without using emojis.
   You can use Telegram's markdown formatting when appropriate:
   - *bold text* for emphasis
@@ -41,7 +41,7 @@ bot.onText(/\/start/, (msg) => {
   
   botStats.activeUsers.add(userId);
   
-  bot.sendMessage(chatId, 'Hello! I am your aris. an ai assitant made by Noah. I can help answer questions, summarize text, and more.', {
+  bot.sendMessage(chatId, 'Hello! I am your AI assistant with a natural, human-like personality. I can help answer questions, summarize text, and more.', {
     parse_mode: 'Markdown'
   });
 });
